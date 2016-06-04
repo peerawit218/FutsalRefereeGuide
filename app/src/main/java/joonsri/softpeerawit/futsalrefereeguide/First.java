@@ -21,4 +21,13 @@ public class First extends AppCompatActivity {
         startActivity(new Intent(First.this, Refer.class));
     }//clickRefer
 
+    public void clickVideo(View view) {
+        startActivity(new Intent(First.this, Video.class));
+    }//clickVideo
+
+    public void clickRules(View view) {
+        startActivity(new Intent(First.this, Rules.class));
+    }//clickRules
+
+
 }//MainClass

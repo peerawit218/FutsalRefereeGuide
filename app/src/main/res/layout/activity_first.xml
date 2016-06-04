@@ -23,7 +23,8 @@
             android:layout_height="match_parent"
             android:text="กติกา 17 ข้อ"
             android:id="@+id/button2"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            android:onClick="clickRules" />
 
         <Button
             android:layout_width="match_parent"
@@ -31,7 +32,8 @@
             android:text="วีดีโอ"
             android:id="@+id/button3"
             android:layout_marginTop="50dp"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            android:onClick="clickVideo" />
 
         <Button
             android:layout_width="match_parent"

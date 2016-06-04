@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="joonsri.softpeerawit.futsalrefereeguide.Rules">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView4" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="กติกาข้อ 1 สนามแข่งขัน"
+                android:id="@+id/button23"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="กติกาข้อ 2 ลูกบอล"
+                android:id="@+id/button24"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="กติกาข้อ 3 จำนวนผู้เล่น"
+                android:id="@+id/button25"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="กติกาข้อ 4 อุปกรณ์ผู้เล่น"
+                android:id="@+id/button26"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="กติกาข้อ 5 ผู้ตัดสิน"
+                android:id="@+id/button27"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="กติกาข้อ 6 ผู้ช่วยผู้ตัดสิน"
+                android:id="@+id/button28"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="กติกาข้อ 7 ระยะเวลาของการแข่งขัน"
+                android:id="@+id/button29"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="กติกาข้อ 8 การเริ่มการแข่งขันและการเล่นใหม่"
+                android:id="@+id/button30"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="กติกาข้อ 9 ลูกบอลอยู่ในการเล่นและนอกการเล่น"
+                android:id="@+id/button31"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="กติกาข้อ 10 การนับประตู"
+                android:id="@+id/button32"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="กติกาข้อ 11 การล่ำหน้า(ไม่มีการล้ำหน้า)"
+                android:id="@+id/button33"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="กติกาข้อ 12 การเล่นที่ผิดกติกาและการประฟฤติผิด"
+                android:id="@+id/button34"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="กติกาข้อ 13 การเตะโทษ"
+                android:id="@+id/button35"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="กติกาข้อ 14 การเตะโทษ ณ จุดเตะโทษ"
+                android:id="@+id/button36"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="กติกาข้อ 15 การเตะเข้าเล่น"
+                android:id="@+id/button37"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="กติกาข้อ 16 การเล่นลูกบอลจากผู้รักษาประตู"
+                android:id="@+id/button38"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="กติกาข้อ 17 การเตะจากมุม"
+                android:id="@+id/button39"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
