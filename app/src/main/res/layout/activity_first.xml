@@ -9,30 +9,21 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="joonsri.softpeerawit.futsalrefereeguide.First">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="แอพพลิเคชันคู่มือผู้ตัดสินกีฬาฟุตซอล"
-        android:id="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:textSize="22sp"
-        android:layout_marginTop="10dp" />
-
     <LinearLayout
         android:orientation="vertical"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="false"
         android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="false">
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="80sp">
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="กติกา 17 ข้อ"
             android:id="@+id/button2"
-            android:layout_marginTop="70dp"
-            android:textSize="25sp" />
+            android:textSize="30sp" />
 
         <Button
             android:layout_width="match_parent"
@@ -40,7 +31,7 @@
             android:text="วีดีโอ"
             android:id="@+id/button3"
             android:layout_marginTop="50dp"
-            android:textSize="25sp" />
+            android:textSize="30sp" />
 
         <Button
             android:layout_width="match_parent"
@@ -48,7 +39,7 @@
             android:text="อ้างอิง"
             android:id="@+id/button4"
             android:layout_marginTop="50dp"
-            android:textSize="25sp" />
+            android:textSize="30sp" />
 
         <Button
             android:layout_width="match_parent"
@@ -56,6 +47,6 @@
             android:text="ผู้จัดทำ"
             android:id="@+id/button5"
             android:layout_marginTop="50dp"
-            android:textSize="25sp" />
+            android:textSize="30sp" />
     </LinearLayout>
 </RelativeLayout>
