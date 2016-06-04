@@ -15,6 +15,10 @@ public class First extends AppCompatActivity {
 
     public void clickProvider(View view) {
         startActivity(new Intent(First.this, Provider.class));
-    }
+    }//clickProvider
+
+    public void clickRefer(View view) {
+        startActivity(new Intent(First.this, Refer.class));
+    }//clickRefer
 
 }//MainClass
