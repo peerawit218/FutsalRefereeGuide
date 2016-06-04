@@ -47,6 +47,7 @@
             android:text="ผู้จัดทำ"
             android:id="@+id/button5"
             android:layout_marginTop="50dp"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            android:onClick="clickProvider" />
     </LinearLayout>
 </RelativeLayout>

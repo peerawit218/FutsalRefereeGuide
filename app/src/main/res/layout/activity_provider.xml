@@ -37,7 +37,8 @@
                 android:id="@+id/imageView2"
                 android:src="@drawable/soft"
                 android:layout_marginLeft="87dp"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:layout_marginTop="5dp" />
 
             <LinearLayout
                 android:orientation="horizontal"
