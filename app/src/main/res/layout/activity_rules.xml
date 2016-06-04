@@ -7,7 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="joonsri.softpeerawit.futsalrefereeguide.Rules">
+    tools:context="joonsri.softpeerawit.futsalrefereeguide.Rules"
+    android:background="@drawable/qasd">
 
     <ScrollView
         android:layout_width="match_parent"

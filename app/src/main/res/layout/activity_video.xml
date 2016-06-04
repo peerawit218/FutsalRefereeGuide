@@ -7,7 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="joonsri.softpeerawit.futsalrefereeguide.Video">
+    tools:context="joonsri.softpeerawit.futsalrefereeguide.Video"
+    android:background="@drawable/qwe">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -26,7 +27,8 @@
                 android:id="@+id/textView23"
                 android:layout_gravity="center_horizontal"
                 android:textSize="30sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="#ff0011" />
 
             <LinearLayout
                 android:orientation="vertical"
@@ -40,7 +42,8 @@
                     android:text="New Text"
                     android:id="@+id/textView24"
                     android:textSize="20sp"
-                    android:layout_gravity="center_horizontal" />
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#ffffff" />
 
                 <VideoView
                     android:layout_width="150sp"
